@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
+  <title>"Castom elements"</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrap">
+      <h1 class="first__title">КАСТОМНЫЕ ЭЛЕМЕНТЫ</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="checkbox">
+      <div class="container">
+        <div class="wrap">
+          <h2 class="second__title">Checkbox:</h2>
+
+          <div class="checkbox__wrap">
+            <h3 class="checkbox__title">Категории:</h3>
+
+            <ul class="items">
+              <li class="item">
+                <label class="checkbox__label" for="check-1">
+                  <input class="checkbox__input" type="checkbox" name="check" id="check-1">
+                  Динозавры
+                  <span class="checkbox__span"></span>
+                </label>
+              </li>
+
+              <li class="item">
+                <label class="checkbox__label" for="check-2">
+                  <input class="checkbox__input" type="checkbox" name="check" id="check-2">
+                  Медведи
+                  <span class="checkbox__span"></span>
+                </label>
+              </li>
+
+              <li class="item">
+                <label class="checkbox__label" for="check-3">
+                  <input class="checkbox__input" type="checkbox" name="check" id="check-3">
+                  Косули
+                  <span class="checkbox__span"></span>
+                </label>
+              </li>
+
+              <li class="item">
+                <label class="checkbox__label" for="check-4">
+                  <input class="checkbox__input" type="checkbox" name="check" id="check-4">
+                  Лисы
+                  <span class="checkbox__span"></span>
+                </label>
+              </li>
+
+              <li class="item">
+                <label class="checkbox__label" for="check-5">
+                  <input class="checkbox__input" type="checkbox" name="check" id="check-5">
+                  Волки
+                  <span class="checkbox__span"></span>
+                </label>
+              </li>
+
+              <li class="item">
+                <label class="checkbox__label" for="check-6">
+                  <input class="checkbox__input" type="checkbox" name="check" id="check">
+                  Олени и лоси
+                  <span class="checkbox__span"></span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="select">
+      <div class="container">
+        <div class="wrap">
+          <h2 class="second__title">Select</h2>
+
+          <select class="js-choice">
+            <option value="" class="select__item">Материал</option>
+            <option value="Древесина" class="select__item">Древесина</option>
+            <option value="Металл" class="select__item">Металл</option>
+            <option value="Камень" class="select__item">Камень</option>
+            <option value="Пластик" class="select__item">Пластик</option>
+            <option value="Композитный" class="select__item">Композитный</option>
+            <option value="Гипс" class="select__item">Гипс</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="container">
+        <div class="wrap">
+          <h2 class="second__title">Карта</h2>
+
+          <div class="map__paris" id="myMap" style="width: 600px; height: 400px">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scroll">
+      <div class="container">
+        <div class="wrap">
+          <h2 class="second__title">Scroll</h2>
+
+          <div class="scroll__wrap" id="myScroll">
+              <p class="scroll_text">Сложно сказать, почему многие известные личности представлены в&nbsp;исключительно положительном свете. Лишь активно развивающиеся страны третьего мира будут объективно рассмотрены соответствующими инстанциями. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки глубокомысленных рассуждений. Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса освещают чрезвычайно интересные особенности картины в&nbsp;целом, однако конкретные выводы, разумеется, обнародованы. Значимость этих проблем настолько очевидна, что социально-экономическое развитие, а&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash; безусловно открывает новые горизонты для первоочередных требований.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="container">
+        <div class="wrap">
+          <h2 class="second__title">Форма</h2>
+
+          <form class="form__item" action="">
+            <label class="form__label">
+              <input class="form__input" type="text" name="Имя" placeholder="Имя*" data-validate-field="name">
+            </label>
+
+            <label class="form__label">
+              <input class="form__input" type="tel" name="Телефон" placeholder="Телефон;" data-validate-field="tel" data-validate-rules="phone">
+            </label>
+
+            <label class="form__label">
+              <input class="form__input" type="email" name="Email" placeholder="E-mail*" data-validate-field="mail">
+            </label>
+
+            <button class="form__btn">Заказать</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="tooltip">
+      <div class="container">
+        <div class="wrap">
+          <h2 class="second__title">Tooltip</h2>
+            <div class="tooltip__wrap">
+              <p class="tooltip__text">Следует отметить, что социально-экономическое развитие способствует повышению качества переосмысления внешнеэкономических политик.</p>
+
+              <div class="tooltip-1">
+                <button class="tooltip__btn" aria-describedby="myTooltip">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM8 3C7.33333 3 7 3.31919 7 3.95758C7 4.60026 7.33333 4.92159 8 4.92159C8.33333 4.92159 8.58233 4.83805 8.74699 4.67095C8.91566 4.49957 9 4.26178 9 3.95758C9 3.31919 8.66667 3 8 3ZM7.07831 13H8.91566V5.81491H7.07831V13Z" fill="none"/>
+                  </svg>
+                </button>
+                <div class="tooltip-text" role="tooltip" id="myTooltip">Глава 6, страница 176</div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/choices.min.js"></script>
+  <script src="js/select.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"> </script>
+  <script src="js/map.js"></script>
+  <script src="js/inputmask.min.js"></script>
+  <script src="js/mask.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/just-validate.min.js"></script>
+  <script src="js/validate.js"></script>
+</body>
+</html>
